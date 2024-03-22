@@ -1,0 +1,16 @@
+{
+  "project": "Sridhar's AEM Project",
+  "host": "https://main--aem--sridharjayakumar.hlx.live",
+  "plugins": [
+    // ...
+    {
+      "id": "generate-variations",
+      "title": "Generate Variations",
+      "url": "https://experience.adobe.com/aem/generate-variations",
+      "passConfig": true,
+      "environments": ["preview","live", "edit"],
+      "includePaths": ["**.docx**"]
+    }
+    // ...
+  ]
+}
