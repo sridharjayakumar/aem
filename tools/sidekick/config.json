@@ -2,7 +2,6 @@
   "project": "Sridhar's AEM Project",
   "host": "https://main--aem--sridharjayakumar.hlx.live",
   "plugins": [
-    // ...
     {
       "id": "generate-variations",
       "title": "Generate Variations",
@@ -11,6 +10,5 @@
       "environments": ["preview","live", "edit"],
       "includePaths": ["**.docx**"]
     }
-    // ...
   ]
 }
